@@ -1,0 +1,1509 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+      - "/opt/homebrew/bin/"
+    searched_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/uname"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/uname"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Darwin - 24.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+      - "/opt/homebrew/bin/"
+    searched_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/ninja-build"
+    found: "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/"
+    found: "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/avr-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/4.1.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-dlltool"
+      - "/usr/local/bin/avr-dlltool"
+      - "/System/Cryptexes/App/usr/bin/avr-dlltool"
+      - "/usr/bin/avr-dlltool"
+      - "/bin/avr-dlltool"
+      - "/usr/sbin/avr-dlltool"
+      - "/sbin/avr-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-dlltool"
+      - "/Library/Apple/usr/bin/avr-dlltool"
+      - "/usr/local/share/dotnet/avr-dlltool"
+      - "/~/.dotnet/tools/avr-dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/dlltool"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/~/.dotnet/tools/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    found: "/opt/homebrew/bin/avr-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-tapi"
+      - "/usr/local/bin/avr-tapi"
+      - "/System/Cryptexes/App/usr/bin/avr-tapi"
+      - "/usr/bin/avr-tapi"
+      - "/bin/avr-tapi"
+      - "/usr/sbin/avr-tapi"
+      - "/sbin/avr-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-tapi"
+      - "/Library/Apple/usr/bin/avr-tapi"
+      - "/usr/local/share/dotnet/avr-tapi"
+      - "/~/.dotnet/tools/avr-tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/tapi"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/~/.dotnet/tools/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-9.4"
+      - "avr-gcc-ar-9"
+      - "avr-gcc-ar9"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-9.4"
+      - "/usr/local/bin/avr-gcc-ar-9.4"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-9.4"
+      - "/usr/bin/avr-gcc-ar-9.4"
+      - "/bin/avr-gcc-ar-9.4"
+      - "/usr/sbin/avr-gcc-ar-9.4"
+      - "/sbin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-9.4"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-9.4"
+      - "/usr/local/share/dotnet/avr-gcc-ar-9.4"
+      - "/~/.dotnet/tools/avr-gcc-ar-9.4"
+      - "/opt/homebrew/bin/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-9"
+      - "/usr/local/bin/avr-gcc-ar-9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-9"
+      - "/usr/bin/avr-gcc-ar-9"
+      - "/bin/avr-gcc-ar-9"
+      - "/usr/sbin/avr-gcc-ar-9"
+      - "/sbin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-9"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-9"
+      - "/usr/local/share/dotnet/avr-gcc-ar-9"
+      - "/~/.dotnet/tools/avr-gcc-ar-9"
+      - "/opt/homebrew/bin/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar9"
+      - "/usr/local/bin/avr-gcc-ar9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar9"
+      - "/usr/bin/avr-gcc-ar9"
+      - "/bin/avr-gcc-ar9"
+      - "/usr/sbin/avr-gcc-ar9"
+      - "/sbin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar9"
+      - "/Library/Apple/usr/bin/avr-gcc-ar9"
+      - "/usr/local/share/dotnet/avr-gcc-ar9"
+      - "/~/.dotnet/tools/avr-gcc-ar9"
+    found: "/opt/homebrew/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-9.4"
+      - "avr-gcc-ranlib-9"
+      - "avr-gcc-ranlib9"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-9.4"
+      - "/usr/local/bin/avr-gcc-ranlib-9.4"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-9.4"
+      - "/usr/bin/avr-gcc-ranlib-9.4"
+      - "/bin/avr-gcc-ranlib-9.4"
+      - "/usr/sbin/avr-gcc-ranlib-9.4"
+      - "/sbin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-9.4"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-9.4"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-9.4"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-9.4"
+      - "/opt/homebrew/bin/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-9"
+      - "/usr/local/bin/avr-gcc-ranlib-9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-9"
+      - "/usr/bin/avr-gcc-ranlib-9"
+      - "/bin/avr-gcc-ranlib-9"
+      - "/usr/sbin/avr-gcc-ranlib-9"
+      - "/sbin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-9"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-9"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-9"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-9"
+      - "/opt/homebrew/bin/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib9"
+      - "/usr/local/bin/avr-gcc-ranlib9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib9"
+      - "/usr/bin/avr-gcc-ranlib9"
+      - "/bin/avr-gcc-ranlib9"
+      - "/usr/sbin/avr-gcc-ranlib9"
+      - "/sbin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib9"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib9"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib9"
+      - "/~/.dotnet/tools/avr-gcc-ranlib9"
+    found: "/opt/homebrew/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/"
+    found: "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/avr-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/4.1.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-9.4"
+      - "avr-gcc-ar-9"
+      - "avr-gcc-ar9"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-9.4"
+      - "/usr/local/bin/avr-gcc-ar-9.4"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-9.4"
+      - "/usr/bin/avr-gcc-ar-9.4"
+      - "/bin/avr-gcc-ar-9.4"
+      - "/usr/sbin/avr-gcc-ar-9.4"
+      - "/sbin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-9.4"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-9.4"
+      - "/usr/local/share/dotnet/avr-gcc-ar-9.4"
+      - "/~/.dotnet/tools/avr-gcc-ar-9.4"
+      - "/opt/homebrew/bin/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-9"
+      - "/usr/local/bin/avr-gcc-ar-9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-9"
+      - "/usr/bin/avr-gcc-ar-9"
+      - "/bin/avr-gcc-ar-9"
+      - "/usr/sbin/avr-gcc-ar-9"
+      - "/sbin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-9"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-9"
+      - "/usr/local/share/dotnet/avr-gcc-ar-9"
+      - "/~/.dotnet/tools/avr-gcc-ar-9"
+      - "/opt/homebrew/bin/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar9"
+      - "/usr/local/bin/avr-gcc-ar9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar9"
+      - "/usr/bin/avr-gcc-ar9"
+      - "/bin/avr-gcc-ar9"
+      - "/usr/sbin/avr-gcc-ar9"
+      - "/sbin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar9"
+      - "/Library/Apple/usr/bin/avr-gcc-ar9"
+      - "/usr/local/share/dotnet/avr-gcc-ar9"
+      - "/~/.dotnet/tools/avr-gcc-ar9"
+    found: "/opt/homebrew/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-9.4"
+      - "avr-gcc-ranlib-9"
+      - "avr-gcc-ranlib9"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-9.4"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-9.4"
+      - "/usr/local/bin/avr-gcc-ranlib-9.4"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-9.4"
+      - "/usr/bin/avr-gcc-ranlib-9.4"
+      - "/bin/avr-gcc-ranlib-9.4"
+      - "/usr/sbin/avr-gcc-ranlib-9.4"
+      - "/sbin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-9.4"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-9.4"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-9.4"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-9.4"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-9.4"
+      - "/opt/homebrew/bin/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-9"
+      - "/usr/local/bin/avr-gcc-ranlib-9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-9"
+      - "/usr/bin/avr-gcc-ranlib-9"
+      - "/bin/avr-gcc-ranlib-9"
+      - "/usr/sbin/avr-gcc-ranlib-9"
+      - "/sbin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-9"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-9"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-9"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-9"
+      - "/opt/homebrew/bin/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib9"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib9"
+      - "/usr/local/bin/avr-gcc-ranlib9"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib9"
+      - "/usr/bin/avr-gcc-ranlib9"
+      - "/bin/avr-gcc-ranlib9"
+      - "/usr/sbin/avr-gcc-ranlib9"
+      - "/sbin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib9"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib9"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib9"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib9"
+      - "/~/.dotnet/tools/avr-gcc-ranlib9"
+    found: "/opt/homebrew/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      avr-gcc (Homebrew AVR GCC 9.4.0_1) 9.4.0
+      Copyright (C) 2019 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-"
+      - "avr-gcc-ar-"
+      - "avr-gcc-ar"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-"
+      - "/usr/local/bin/avr-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-"
+      - "/usr/bin/avr-gcc-ar-"
+      - "/bin/avr-gcc-ar-"
+      - "/usr/sbin/avr-gcc-ar-"
+      - "/sbin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-"
+      - "/usr/local/share/dotnet/avr-gcc-ar-"
+      - "/~/.dotnet/tools/avr-gcc-ar-"
+      - "/opt/homebrew/bin/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ar-"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ar-"
+      - "/usr/local/bin/avr-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ar-"
+      - "/usr/bin/avr-gcc-ar-"
+      - "/bin/avr-gcc-ar-"
+      - "/usr/sbin/avr-gcc-ar-"
+      - "/sbin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ar-"
+      - "/Library/Apple/usr/bin/avr-gcc-ar-"
+      - "/usr/local/share/dotnet/avr-gcc-ar-"
+      - "/~/.dotnet/tools/avr-gcc-ar-"
+    found: "/opt/homebrew/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/ebheines/.mplab/app-finder/apps/cmake/v4.1.0/cmake-4.1.0-macos-universal/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-"
+      - "avr-gcc-ranlib-"
+      - "avr-gcc-ranlib"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/share/dotnet/"
+      - "/~/.dotnet/tools/"
+    searched_directories:
+      - "/opt/homebrew/bin/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-"
+      - "/usr/local/bin/avr-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-"
+      - "/usr/bin/avr-gcc-ranlib-"
+      - "/bin/avr-gcc-ranlib-"
+      - "/usr/sbin/avr-gcc-ranlib-"
+      - "/sbin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-"
+      - "/opt/homebrew/bin/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac/avr-gcc-ranlib-"
+      - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin/avr-gcc-ranlib-"
+      - "/usr/local/bin/avr-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/avr-gcc-ranlib-"
+      - "/usr/bin/avr-gcc-ranlib-"
+      - "/bin/avr-gcc-ranlib-"
+      - "/usr/sbin/avr-gcc-ranlib-"
+      - "/sbin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/avr-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/avr-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/avr-gcc-ranlib-"
+      - "/usr/local/share/dotnet/avr-gcc-ranlib-"
+      - "/~/.dotnet/tools/avr-gcc-ranlib-"
+    found: "/opt/homebrew/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ebheines/.mplab/app-finder/apps/ninja/v1.13.1"
+        - "/Users/ebheines/.mplab/app-finder/apps/make/v4.4.1/mac"
+        - "/Users/ebheines/.mplab/app-finder/apps/hexmate/v3.00/dist/osx/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/opt/homebrew/bin"
+...

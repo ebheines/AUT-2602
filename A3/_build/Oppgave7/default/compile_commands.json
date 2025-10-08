@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default",
+  "command": "/opt/homebrew/bin/avr-gcc -DDEBUG -D__AVR128DB48__ -Ddefault=default -I/Users/ebheines/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/include -x c -g -gdwarf-2 -mmcu=avr128db48 -B/Users/ebheines/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/gcc/dev/avr128db48 -x c -c -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -o CMakeFiles/Oppgave7_default_default_AVR_GCC_compile.dir/Users/ebheines/MPLABProjects/Oppgave7/main.c.o -c /Users/ebheines/MPLABProjects/Oppgave7/main.c",
+  "file": "/Users/ebheines/MPLABProjects/Oppgave7/main.c",
+  "output": "/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/Oppgave7_default_default_AVR_GCC_compile.dir/Users/ebheines/MPLABProjects/Oppgave7/main.c.o"
+}
+]

@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Meldingsvalidator"
+		},
+		{
+			"name": "Oppgave2_250825",
+			"path": "."
+		}
+	],
+	"settings": {
+		"mplab.clangd.arguments": [
+			"--compile-commands-dir=${userHome}/MPLABProjects/Oppgave2_250825/_build/Oppgave2_250825/default"
+		],
+		"mplab.clangd.path": "/Applications/microchip/xc8/v3.00/bin/xc8-clangd",
+		"memory-inspector.debugTypes": [
+			"arm-debugger",
+			"embedded-debug",
+			"gdb",
+			"mplab-core-da"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default",
+  "command": "/Applications/microchip/xc8/v3.00/bin/xc8-cc -DDEBUG -DXPRJ_default=default -D__AVR128DB48__ -D__DEBUG=1 -c -mcpu=AVR128DB48 -gdwarf-2 -x c -mdfp=/Users/ebheines/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/adc.c.o -c /Users/ebheines/MPLABProjects/Oppgave4/adc.c",
+  "file": "/Users/ebheines/MPLABProjects/Oppgave4/adc.c",
+  "output": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/adc.c.o"
+},
+{
+  "directory": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default",
+  "command": "/Applications/microchip/xc8/v3.00/bin/xc8-cc -DDEBUG -DXPRJ_default=default -D__AVR128DB48__ -D__DEBUG=1 -c -mcpu=AVR128DB48 -gdwarf-2 -x c -mdfp=/Users/ebheines/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/main.c.o -c /Users/ebheines/MPLABProjects/Oppgave4/main.c",
+  "file": "/Users/ebheines/MPLABProjects/Oppgave4/main.c",
+  "output": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/main.c.o"
+},
+{
+  "directory": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default",
+  "command": "/Applications/microchip/xc8/v3.00/bin/xc8-cc -DDEBUG -DXPRJ_default=default -D__AVR128DB48__ -D__DEBUG=1 -c -mcpu=AVR128DB48 -gdwarf-2 -x c -mdfp=/Users/ebheines/.mchp_packs/Microchip/AVR-Dx_DFP/2.7.321/xc8 -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/usart.c.o -c /Users/ebheines/MPLABProjects/Oppgave4/usart.c",
+  "file": "/Users/ebheines/MPLABProjects/Oppgave4/usart.c",
+  "output": "/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/usart.c.o"
+}
+]

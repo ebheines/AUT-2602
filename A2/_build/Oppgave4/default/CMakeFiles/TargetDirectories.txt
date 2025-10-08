@@ -1,0 +1,4 @@
+/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/Oppgave4_default_default_XC8_compile.dir
+/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/Oppgave4_default_image_VX9cfxLw.dir
+/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/edit_cache.dir
+/Users/ebheines/MPLABProjects/Oppgave4/_build/Oppgave4/default/CMakeFiles/rebuild_cache.dir

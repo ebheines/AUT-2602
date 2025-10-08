@@ -1,0 +1,5 @@
+# ninja log v7
+2	440	1759851884304401265	CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/main.c.o	9c1d19a66e050535
+2	327	1759840087235588685	CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/adc.c.o	618703a954b3cd96
+3	328	1759840087236327520	CMakeFiles/Oppgave4_default_default_XC8_compile.dir/Users/ebheines/MPLABProjects/Oppgave4/usart.c.o	3263fa913413eeb4
+440	481	1759851884743102553	/Users/ebheines/MPLABProjects/Oppgave4/out/Oppgave4/default.elf	714633923ef64d5

@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/Users/ebheines/MPLABProjects/Oppgave2_250825/cmake/Oppgave2_250825/default",
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/_build/Oppgave2_250825/default"
+    ],
+    "mplab.clangd.path": "/Applications/microchip/xc8/v3.00/bin/xc8-clangd"
+}

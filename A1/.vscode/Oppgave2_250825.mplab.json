@@ -1,0 +1,82 @@
+{
+    "version": "1.6",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "",
+            "device": "AVR128DB48",
+            "imageType": "application",
+            "imagePath": "./out/Oppgave2_250825/default.elf",
+            "toolProperties": "default-tool-base",
+            "tool": "PKOB nano",
+            "packs": [
+                {
+                    "name": "AVR-Dx_DFP",
+                    "vendor": "Microchip",
+                    "version": "2.7.321"
+                }
+            ],
+            "fileSet": "default",
+            "toolchain": "default-AVR-GCC",
+            "userVariables": "default-uservariables",
+            "preBuildSteps": [],
+            "postBuildSteps": []
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-uservariables",
+            "type": "uservariables",
+            "properties": {}
+        },
+        {
+            "name": "default-AVR-GCC",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@3.00",
+            "properties": {
+                "linker.generate-map-file": true,
+                "compiler.default-char-type": false,
+                "compiler.default-bitfield-type": false,
+                "compiler.garbage-collect-functions": false,
+                "compiler.garbage-collect-data": false,
+                "compiler.pack-struct": false,
+                "compiler.short-enums": false,
+                "compiler.additional-warnings": false,
+                "compiler++.default-char-type": false,
+                "compiler++.default-bitfield-type": false,
+                "compiler++.garbage-collect-functions": false,
+                "compiler++.garbage-collect-data": false,
+                "compiler++.pack-struct": false,
+                "compiler++.short-enums": false,
+                "compiler++.additional-warnings": false,
+                "linker.remove-unused-sections": false
+            }
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "default",
+            "files": [
+                {
+                    "include": "**/*",
+                    "exclude": "**/(_build|out|cmake|.vscode)/**/*"
+                }
+            ]
+        }
+    ]
+}

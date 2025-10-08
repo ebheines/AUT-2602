@@ -1,0 +1,4 @@
+/Users/ebheines/MPLABProjects/Oppgave2_250825/_build/Oppgave2_250825/default/CMakeFiles/Oppgave2_250825_default_default_AVR_GCC_compile.dir
+/Users/ebheines/MPLABProjects/Oppgave2_250825/_build/Oppgave2_250825/default/CMakeFiles/Oppgave2_250825_default_image_cA_hHXpG.dir
+/Users/ebheines/MPLABProjects/Oppgave2_250825/_build/Oppgave2_250825/default/CMakeFiles/edit_cache.dir
+/Users/ebheines/MPLABProjects/Oppgave2_250825/_build/Oppgave2_250825/default/CMakeFiles/rebuild_cache.dir

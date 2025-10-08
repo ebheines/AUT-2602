@@ -1,0 +1,4 @@
+/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/Oppgave7_default_default_AVR_GCC_compile.dir
+/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/Oppgave7_default_image_5nr7IGE1.dir
+/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/edit_cache.dir
+/Users/ebheines/MPLABProjects/Oppgave7/_build/Oppgave7/default/CMakeFiles/rebuild_cache.dir
